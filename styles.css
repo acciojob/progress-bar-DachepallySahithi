@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.active {
+  background-color: #3498db;
+  color: #fff;
+  border-color: #3498db;
+}
